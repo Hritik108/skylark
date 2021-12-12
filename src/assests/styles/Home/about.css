@@ -1,0 +1,771 @@
+.about-home {
+    width: 100%;
+  }
+  
+  .about-heading {
+    text-align: center;
+  }
+  
+  #about-head {
+    padding-top: 8%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  
+  #about-subhead {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #92959A;
+    margin-top: 1%;
+  }
+  .company-aim{
+      text-align: center;
+  }
+  #aim{
+      padding-top: 5%;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      color: #2C323C;
+      line-height: 80px;
+
+  }
+  .keyword{
+    color:#4bd4be;
+  }
+  .quality-head{
+    padding-top:120px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 80px;
+    text-align: center;
+  }
+  .quality-names{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 117px;
+  }
+  #big-circle div{
+    height: 547px;
+    width: 547px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%; /* may require vendor prefixes */
+    background: #007464;
+  }
+  #small-circle1 div{
+    width: 339px;
+    height: 339px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%; 
+    background: rgba(59, 176, 160, 0.3);
+    opacity: 0.4;
+  }
+  #small-circle2 div{
+    width: 385px;
+    height: 385px;
+    margin-top: 39px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #3BB0A0;
+  }
+  #small-circle2{
+    padding-top: 39px;
+  }
+  #team-heading{
+    padding-top: 164px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+  }
+#team-subhead{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #92959A;
+}
+.team-members{
+  margin-top: 79.56px;
+  /* margin-right: 7%; */
+  width: 100%;
+  display: flex;
+
+}
+.member{
+  padding-left: 9%;
+}
+.image{
+  width: 327.8px;
+  height: 312.44px;
+}
+.member.member-name{
+  text-align: center;
+}
+#name{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+}
+.member.member-position{
+  text-align: center;
+}
+#position{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #70757B;
+}
+.member.member-quote{
+  
+  text-align: center;
+  margin: 16px 0px;
+}
+#quote{
+  width: 316px;
+  height: 168px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  line-height: 42px;
+  letter-spacing: -0.01em;
+  color: #92959A;
+}
+
+.timeline-body{
+  /* background: #E5E5E5; */
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+}
+.h{
+  position: relative; 
+ color: #2C323C;
+ /* width: 376px; */
+ height: 48px;
+ /* left: 313px; */
+ top: 0px;
+ margin: auto;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 48px;
+
+text-align: center;
+letter-spacing: -0.01em;
+
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.d{
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+text-align: center;
+letter-spacing: -0.01em;
+
+/* Greys/600-900/grey_700 */
+
+color: #70757B;
+
+
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin-right:134px;
+  padding-bottom: 100px;
+
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-image: linear-gradient(#3BB0A0,#2D7475,#3BB0A0,#2D7475,#3BB0A0,#2D7475);
+  top: 0;
+  bottom: 0;
+  left: 33%;
+  margin-left: 145px;
+  height: 720px;
+  margin-top: 267px
+  }
+
+/* Container around content */
+.timeline-container {
+  width: 100%;
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  /* margin-left: -10%; */
+  /* width: 75%; */
+}
+
+/* The circles on the timeline */
+.timeline-container::after {
+  content: '';
+  position: absolute;
+  width: 126px;
+  height: 126px;
+  right: -65px; 
+  background: #E5E5E5;
+  background-image: url("D:\skylark\src\assests\images\Bank.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 6px solid #3BB0A0;
+  box-sizing: border-box;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+  margin-left: -200px;
+}
+
+/* Place the container to the left */
+/* .left {
+  left: 0;
+} */
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 180px;
+  width: 0;
+  z-index: 1;
+  left: 230px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -74px;
+  margin-top: 126px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background: #EFF9F8;
+  position: relative;
+  border-radius: 30px;
+  margin-top: 126px;
+  margin-left: 0px;
+  font-family: Nunito;
+font-style: normal;
+ width:50%;
+/* font-weight: bold; */
+/* font-size: 24px; */
+line-height: 32px;
+color:#007464;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .timeline-container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .timeline-container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+
+#timeline-descp{
+  color: #007464;
+  font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+}
+.c1,.c2 {
+background: #007464;
+color: #EFF9F8;
+}
+
+.b2 ,.b1::before{
+border-right-color: #007464;
+}
+
+.b2::before{
+border-right-color: #007464;
+}
+
+
+.dg{
+	display: flex;
+}
+
+.Years{
+	margin-top: 186px;
+    margin-left: 7%;
+    color: #3BB0A0;
+
+}
+
+.H1,.H2{
+color: #007464;
+}
+
+/* Arrows */
+
+.arrow {
+  border: solid #B9BBBE;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 180px;
+/*   background: #B9BBBE;
+ */  
+  /* border-color: transparent transparent transparent blue; */
+
+
+}
+
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  margin-bottom: -100px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-bottom: 100px;
+  margin-top: -70px;
+
+}
+.company-awards{
+  margin-top: 160px;
+}
+.award-heading{
+  margin-left: 7%;
+  /* margin-right: 7%; */
+}
+#award-head{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  /* or 150% */
+  text-align: center;
+  color: #4B5159;
+}
+.award-section1{
+  margin-top: 120px;
+  margin-left: 10%;
+  display: flex;
+}
+.award-main{
+  height: 300px;
+  margin-right: 15%;
+}
+.award-img1{
+  padding-left: 55px;
+  padding-right: 30px;
+  width: 264px;
+  height: 120px;
+  /* margin: auto; */
+}
+.award-descp{
+  width:263px;
+  /* height:px; */
+  text-align: center;
+} 
+#descp{
+  padding-top: 24px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  color: #2C323C;
+}
+.award-img3{
+  padding-left: 55px;
+}
+.award-section2{
+  margin-top: 92px;
+  margin-left: 10%;
+  display: flex;
+}
+.award-img5{
+  padding-left: 70px;
+}
+.award-img4{
+  padding-left: 45px;
+}
+.network{
+  width: 100%;
+}
+.company-network{
+  margin-top: 171px;
+}
+.head{
+	font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: -0.01em;
+text-align: center;
+
+}
+
+.description{ 
+margin-left: 7%;
+margin-right: 7%;
+}
+#network-descp{
+  font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px;
+/* letter-spacing: -0.01em; */
+text-align: center;
+color: #92959A;
+}
+
+.imag{
+text-align: center;
+margin-top: 100px;
+z-index: -1;
+}
+
+
+.td{
+
+    text-align: center;
+    margin: auto;
+    width: 25%;
+}
+
+.ro1.row2{
+	margin: auto;
+	
+	text-align: center;
+}
+
+.tabl{
+	margin-top: 100px;
+  margin-bottom: 148px;
+}
+
+.row2{
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px;
+letter-spacing: -0.01em;
+text-align: center;
+color: #92959A;
+
+}
+
+.mapicons1{
+right: 943px;
+    top: 701px;
+    z-index: 1;
+    position: absolute;
+    left: 326px;
+    /* background: #D7EFEC; */
+ 
+}
+
+.mapicons2{
+right: 1500px;
+    top: 793px;
+    z-index: 1;
+    position: absolute;
+    left: 476px;
+    /* background: #D7EFEC; */
+
+}
+
+.mapicons3{
+    right: 1519px;
+    top: 884px;
+    z-index: 1;
+    position: absolute;
+    left: 375px;
+    /* background: #D7EFEC; */
+
+}
+
+.mapicons4{
+right: 1496px;
+    top: 962px;
+    z-index: 1;
+    position: absolute;
+    left: 491px;
+    /* background: #D7EFEC; */
+
+}
+
+.pieicons1{
+right: 1496px;
+    top: 962px;
+    z-index: 1;
+    position: absolute;
+    left: 491px;
+    /* background: #D7EFEC; */
+
+}
+
+.pieicons1{
+right: 1496px;
+    top: 962px;
+    z-index: 1;
+    position: absolute;
+    left: 491px;
+    /* background: #D7EFEC; */
+
+}
+
+.baricons1{
+right: 1496px;
+    top: 452px;
+    z-index: 1;
+    position: absolute;
+    left: 460px;
+    /* background: #D7EFEC; */
+
+}
+
+.baricons2{
+    right: 1496px;
+    top: 596px;
+    z-index: 1;
+    position: absolute;
+    left: 532px;
+    /* background: #d7efec; */
+
+}
+
+.baricons3{
+right: 1496px;
+    top: 833px;
+    z-index: 1;
+    position: absolute;
+    left: 336px;
+    /* background: #D7EFEC; */
+
+}
+
+.baricons4{
+right: 1503px;
+    top: 860px;
+    z-index: 1;
+    position: absolute;
+    left: 464px;
+    /* background: #D7EFEC; */
+
+}
+
+.baricons5{
+    right: 1496px;
+    top: 949px;
+    z-index: 1;
+    position: absolute;
+    left: 420px;
+    /* background: #D7EFEC; */
+}
+
+.baricons6{
+right: 1496px;
+    top: 1150px;
+    z-index: 1;
+    position: absolute;
+    left: 513px;
+    /* background: #D7EFEC; */
+
+}
+
+.baricons7{
+    right: 1496px;
+    top: 1195px;
+    z-index: 1;
+    position: absolute;
+    left: 424px;
+    /* background: #D7EFEC; */
+
+}
+
+.officeicons1{
+    right: 1496px;
+    top: 623px;
+    z-index: 1;
+    position: absolute;
+    left: 443px;
+    /* background: #D7EFEC */
+
+}
+
+.officeicons2{
+    right: 1496px;
+    top: 705px;
+    z-index: 1;
+    position: absolute;
+    left: 570px;
+    /* background: #D7EFEC; */
+
+}
+
+.officeicons3{
+    right: 1496px;
+    top: 748px;
+    z-index: 1;
+    position: absolute;
+    left: 760px;
+    /* background: #D7EFEC; */
+
+}
+
+.officeicons4{
+     right: 1496px;
+    top: 706px;
+    z-index: 1;
+    position: absolute;
+    left: 958px;
+    /* background: #D7EFEC; */
+
+}
+
+.officeicons5{
+    right: 1496px;
+    top: 805px;
+    z-index: 1;
+    position: absolute;
+    left: 585px;
+    /* background: #D7EFEC; */
+
+}
+
+.officeicons6{
+   right: 1496px;
+    top: 907px;
+    z-index: 1;
+    position: absolute;
+    left: 715px;
+    /* background: #D7EFEC; */
+
+}
+
+.officeicons7{
+   right: 1496px;
+    top: 974px;
+    z-index: 1;
+    position: absolute;
+    left: 349px;
+    /* color: #D7EFEC; */
+
+}
+
+ .map{
+margin-top: 335%;
+ margin-left: 125px;
+ width: 25px;
+ height: 25px;
+} 
+
+.my{
+    width: 25px;
+    height: 25px;
+}
+
+.iconName{
+	color: #92959A;
+
+}

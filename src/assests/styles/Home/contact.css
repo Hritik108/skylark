@@ -1,0 +1,101 @@
+.contact-home {
+  width: 100%;
+}
+
+.contact-heading {
+  text-align: center;
+}
+
+#contact-head {
+  padding-top: 10%;
+}
+
+#contact-subhead {
+  font-size: 1.2em;
+  color: #808080;
+  margin-top: 1%;
+}
+
+#button-addon2 {
+  background-color: #3bb0a0;
+}
+
+.search-box {
+  margin: 5% 15%;
+}
+
+.contact-home .our-offices {
+  margin-top: 60%;
+}
+
+.contact-home .our-offices .details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+.contact-home .our-offices .details div {
+  text-align: center;
+}
+
+.contact-home .our-offices .details div div {
+  padding-top: 10%;
+  width: 100%;
+  color: #70757b;
+}
+
+.contact-home .contact-us {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  height: 40vh;
+}
+.contact-home .contact-us div {
+  padding-right: 5%;
+}
+
+.contact-home .contact-us div img {
+  width: 25%;
+}
+
+.contact-home .contact-us #about_us {
+  padding-top: 1%;
+  float: left;
+  width: 30%;
+}
+
+.contact-home .contact-us #links {
+  margin-top: 3%;
+  float: left;
+}
+
+.contact-home .contact-us #contact {
+  margin-top: 3%;
+  float: left;
+}
+
+.sub {
+  margin-top: 5%;
+}
+
+.contact-home .contact-us div .footer {
+  margin-top: 80%;
+  display: flex;
+  float: right;
+}
+
+.contact-home .contact-us div .footer i {
+  padding-left: 20%;
+}
+
+.mb-3 {
+  z-index: -1;
+  pointer-events: none;
+}
+
+#button-addon2 {
+  color: white;
+}
