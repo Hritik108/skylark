@@ -1,0 +1,46 @@
+.quality-head{
+    padding-top:120px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 80px;
+    text-align: center;
+  }
+  .quality-names{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 117px;
+  }
+  #big-circle div{
+    height: 547px;
+    width: 547px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%; /* may require vendor prefixes */
+    background: #007464;
+  }
+  #small-circle1 div{
+    width: 339px;
+    height: 339px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%; 
+    background: rgba(59, 176, 160, 0.3);
+    opacity: 0.4;
+  }
+  #small-circle2 div{
+    width: 385px;
+    height: 385px;
+    margin-top: 39px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #3BB0A0;
+  }
+  #small-circle2{
+    padding-top: 39px;
+  }

@@ -1,0 +1,42 @@
+.about-home {
+    width: 100%;
+  }
+  
+  .about-heading {
+    text-align: center;
+  }
+  
+  #about-head {
+    padding-top: 8%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  
+  #about-subhead {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #92959A;
+    margin-top: 1%;
+  }
+  .company-aim{
+      text-align: center;
+  }
+  #aim{
+      padding-top: 5%;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      color: #2C323C;
+      line-height: 80px;
+
+  }
+  .keyword{
+    color:#4bd4be;
+  }

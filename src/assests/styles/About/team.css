@@ -1,0 +1,73 @@
+#team-heading{
+    padding-top: 164px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+  }
+#team-subhead{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #92959A;
+}
+.team-members{
+  margin-top: 79.56px;
+  /* margin-right: 7%; */
+  width: 100%;
+  display: flex;
+
+}
+.member{
+  padding-left: 9%;
+}
+.image{
+  width: 327.8px;
+  height: 312.44px;
+}
+.member.member-name{
+  text-align: center;
+}
+#name{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+}
+.member.member-position{
+  text-align: center;
+}
+#position{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #70757B;
+}
+.member.member-quote{
+  
+  text-align: center;
+  margin: 16px 0px;
+}
+#quote{
+  width: 316px;
+  height: 168px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  line-height: 42px;
+  letter-spacing: -0.01em;
+  color: #92959A;
+}
