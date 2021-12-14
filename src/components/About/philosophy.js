@@ -3,6 +3,7 @@ import "../../assests/styles/About/philosophy.css"
 
 
 class Philosophy extends Component{
+
     render(){
         return(
             <div className="quality-philosophy">
