@@ -33,7 +33,7 @@ class Timeline extends Component{
             <div className="dg"><h1 className="Years H1">1985</h1>
             <div className="timeline-container right b1">
                 <div className="content c1">
-                <p>Skylark research and breeding farm established at village Urlana Kalan, Haryana
+                <p id="timeline-desp">Skylark research and breeding farm established at village Urlana Kalan, Haryana
             </p>
                 </div>
             </div>
@@ -52,7 +52,7 @@ class Timeline extends Component{
             <div className="dg"><h1 className="Years H2">1985</h1>
             <div className="timeline-container right b2">
                     <div className="content c2">
-                <p>Breeder capacity increased to 2,00,000. Skylark breeding farm renamed
+                <p id="timeline-desp">Breeder capacity increased to 2,00,000. Skylark breeding farm renamed
             </p>
                 </div>
             </div>

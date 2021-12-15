@@ -3,7 +3,6 @@ import "../../assests/styles/About/philosophy.css"
 
 
 class Philosophy extends Component{
-
     render(){
         return(
             <div className="quality-philosophy">
@@ -11,11 +10,11 @@ class Philosophy extends Component{
                         <h1 className="quality-head">Our Quality Philosophy</h1>
                         <table className="quality-names">
                             <tr>
-                                <td rowSpan="2" id="big-circle"><div>Quality Processes</div></td>
-                                <td id="small-circle1"><div>Quality Livestock</div></td>
+                                <td rowSpan="2" id="big-circle"><div>Quality <br/>Processes</div></td>
+                                <td id="small-circle1"><div>Quality <br/> Livestock</div></td>
                             </tr>
                             <tr>
-                            <td id="small-circle2"><div>Quality Livestock</div></td>
+                            <td id="small-circle2"><div>Quality <br/> Livestock</div></td>
                             </tr>
                         </table>
                     </div>

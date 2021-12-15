@@ -1,5 +1,9 @@
+body{
+    overflow-x: hidden;
+}
 .timeline-body{
     /* background: #E5E5E5; */
+    margin-top: 164px;
     font-family: Helvetica, sans-serif;
     box-sizing: border-box;
     width: 100%;
@@ -26,10 +30,8 @@
   flex-grow: 0;
   margin: 8px 0px;
   }
-  
-  .d{
-  
-  font-family: Inter;
+  .d p{
+    font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -42,8 +44,6 @@
   /* Greys/600-900/grey_700 */
   
   color: #70757B;
-  
-  
   }
   
   .timeline {
@@ -51,6 +51,7 @@
     max-width: 1200px;
     margin-right:134px;
     padding-bottom: 100px;
+    z-index:-1;
   
   }
   
@@ -63,8 +64,8 @@
     top: 0;
     bottom: 0;
     left: 33%;
-    margin-left: 145px;
-    height: 720px;
+    margin-left: 18.5%;
+    height: 740px;
     margin-top: 267px
     }
   
@@ -86,7 +87,7 @@
     height: 126px;
     right: -65px; 
     background: #E5E5E5;
-    background-image: url("../../images/Bank.png");
+    background-image: url("D:\skylark\src\assests\images\Bank.png");
     background-position: center;
     background-repeat: no-repeat;
     border: 6px solid #3BB0A0;
@@ -126,10 +127,10 @@
     content: " ";
     height: 0;
     position: absolute;
-    top: 180px;
+    top: 186px;
     width: 0;
     z-index: 1;
-    left: 230px;
+    left: 110px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
@@ -148,10 +149,10 @@
     position: relative;
     border-radius: 30px;
     margin-top: 126px;
-    margin-left: 0px;
+    margin-left: 80px;
     font-family: Nunito;
   font-style: normal;
-   width:50%;
+   width:54%;
   /* font-weight: bold; */
   /* font-size: 24px; */
   line-height: 32px;
@@ -199,6 +200,15 @@
   font-size: 24px;
   line-height: 32px;
   }
+  #timeline-desp{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */  
+    /* color: #EFF9F8; */
+  }
   .c1,.c2 {
   background: #007464;
   color: #EFF9F8;
@@ -219,7 +229,7 @@
   
   .Years{
       margin-top: 186px;
-      margin-left: 7%;
+      margin-left: 12%;
       color: #3BB0A0;
   
   }
