@@ -19,7 +19,7 @@ class Network extends Component{
 		<p id="network-descp">An extensive network of farms, processing facilities, trade partners, distributors and contract farmers across India</p>	
 		</div>
 
-		<div class="imag"><img src={india}/></div>
+		<div class="imag"><img id="india-img" src={india}/></div>
 
 <div className="tabl">
 			
@@ -51,7 +51,7 @@ class Network extends Component{
 </table>
 		</div>
  
-		<div className="mapicons">
+		{/* <div className="mapicons">
 			<div className="mapicons1 map"><img src={bank} className="my"/></div>
 			<div className="mapicons2 map"><img src={bank} className="my"/></div>
 			<div className="mapicons3 map"><img src={bank} className="my"/></div>
@@ -70,7 +70,7 @@ class Network extends Component{
 			<div className="officeicons5 map"><img src={gitbranch} className="my"/></div>
 			<div className="officeicons6 map"><img src={gitbranch} className="my"/></div>
 			<div className="officeicons7 map"><img src={gitbranch} className="my"/></div>
-		</div>
+		</div> */}
 
 	</div>
         )

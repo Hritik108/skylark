@@ -3,6 +3,7 @@
   }
   .award-heading{
     margin-left: 7%;
+    margin-right: 7%;
     /* margin-right: 7%; */
   }
   #award-head{
@@ -19,7 +20,7 @@
     text-align: center;
     color: #4B5159;
   }
-  .award-section1{
+  /* .award-section1{
     margin-top: 120px;
     margin-left: 10%;
     display: flex;
@@ -33,13 +34,11 @@
     padding-right: 30px;
     width: 264px;
     height: 120px;
-    /* margin: auto; */
   }
   .award-descp{
     width:263px;
-    /* height:px; */
     text-align: center;
-  } 
+  }  */
   #descp{
     padding-top: 24px;
     font-family: Inter;
@@ -47,20 +46,61 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
     color: #2C323C;
   }
-  .award-img3{
+  /* .award-img3{
     padding-left: 55px;
+  } */
+  .award-main {
+    float: left;
+    width: 33%;
+    padding: 0 30px;
   }
+  
+  /* Remove extra left and right margins, due to padding */
+  .award-section1 {
+    /* margin: 0 -5px; */
+    margin-top: 110px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  /* Clear floats after the columns */
+  .award-section1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 950px) {
+    .award-main {
+      width: 100%;
+      display: block;
+      /* margin-bottom: 20px; */
+    }
+  }
+  .award-descp{
+    text-align: center;
+  }
+  .award-card {
+    padding: 16px;
+    text-align: center;
+  }
+  
   .award-section2{
     margin-top: 92px;
-    margin-left: 10%;
-    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
   }
-  .award-img5{
+  .award-section2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* .award-img5{
     padding-left: 70px;
   }
   .award-img4{
     padding-left: 45px;
-  }
+  } */

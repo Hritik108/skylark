@@ -82,3 +82,10 @@
   #small-circle2{
     padding-top: 39px;
   }
+  @media screen and (max-width: 850px){
+    .quality-philosophy{
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+    
+  }
