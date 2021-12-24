@@ -20,7 +20,7 @@
     font-size: 40px;
     line-height: 74px;
     color: #E7F6F4;
-    height: 480px;
+    height: 480px ;
     width: 480px;
     display: table-cell;
     text-align: center;
@@ -47,7 +47,7 @@
     vertical-align: middle;
     border-radius: 50%; 
     background: rgba(59, 176, 160, 0.3);
-    opacity: 0.4;
+    /* opacity: 0.4; */
     transition: 2s;
   }
   #small-circle1 div:hover{
