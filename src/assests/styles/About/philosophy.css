@@ -29,10 +29,10 @@
     background: #007464;
     transition: 2s;
   }
-  #big-circle div:hover{
+  /* #big-circle div:hover{
     width: 520px;
     height: 520px;
-  }
+  } */
   #small-circle1 div{
     width: 320px;
     height: 320px;
@@ -51,8 +51,9 @@
     transition: 2s;
   }
   #small-circle1 div:hover{
-    width: 340px;
-    height: 340px;
+    transition: 2s;
+    /* width: 340px;
+    height: 340px; */
   }
   #small-circle2 div{
     width: 320px;

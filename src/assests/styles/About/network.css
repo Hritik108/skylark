@@ -1,5 +1,6 @@
 .network{
     width: 100%;
+    background: linear-gradient(180deg, #FFFFFF 6.39%, rgba(239, 249, 248, 0) 48.32%, #EFF9F8 100%)
   }
   .company-network{
     margin-top: 171px;
@@ -57,7 +58,6 @@
   
   .tabl{
       margin-top: 100px;
-    margin-bottom: 148px;
   }
   
   .row2{
