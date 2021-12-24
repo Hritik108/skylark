@@ -3,6 +3,7 @@ import "../assests/styles/Home/contact.css"
 import Logo from "../assests/images/Logo.png"
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import { Facebook } from 'react-bootstrap-icons';
 
 const FooterPage = () => {
   return (
@@ -48,17 +49,21 @@ const FooterPage = () => {
                 Lorem Ipsum
               </li>
           </MDBCol>
-          <MDBCol id="footer-links" md="3">
-            <h5 className="title">Links</h5>
-            <div className="footer-copyright align-text-bottom">
-        <MDBContainer fluid>
-          Copyright &copy;  {new Date().getFullYear()} Skylark Hatcheries Pvt. Ltd 
-        </MDBContainer>
-      </div>
+          <MDBCol id="footer-links" style={{"position":"relative"}} md="3">
+            <h5 className="title text-right">
+            <Facebook color="#3BB0A0" className="ml-4" />
+            <Facebook color="#3BB0A0" className="ml-4"  />
+            <Facebook color="#3BB0A0" className="ml-4" />
+            <Facebook color="#3BB0A0"  className="ml-4" />
+              </h5>
           </MDBCol>   
         </MDBRow>
       </MDBContainer>
-
+            <div className="footer-copyright text-center py-3">
+              <MDBContainer fluid>
+              Copyright &copy;  {new Date().getFullYear()} Skylark Hatcheries Pvt. Ltd 
+              </MDBContainer>
+            </div>
     </MDBFooter>
   );
 }

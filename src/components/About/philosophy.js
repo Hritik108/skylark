@@ -5,14 +5,19 @@ import jQuery from "jquery";
 class Philosophy extends Component{
     render(){
         function changing_to_new(){
-            const w = jQuery("#big-circle").width()
-            const h = jQuery("#big-circle").height() - 200
-            console.log(h)
-            jQuery("#changing").animate({"height":h,"width":w},500,"linear")
+            const mainw = jQuery("#big-circle").width()
+            const mainh = jQuery("#big-circle").height() - 200
+
+            const sidew = jQuery("#small-circle2").width()
+            const sideh = jQuery("#small-circle2").height()
+            console.log(sidew,sideh)
+            jQuery("#small_1_changing").animate({"height":mainh,"width":mainw},500,"linear")
+            jQuery("#big_changing").animate({"height":sideh,"width":sidew},500,"linear")
         }
 
         function changing_to_old(){
-            jQuery("#changing").animate({"height":"320px","width":"320px"},500,"linear")
+            jQuery("#small_1_changing").animate({"height":"320px","width":"320px"},500,"linear")
+            jQuery("#big_changing").animate({"height":"480px","width":"480px"},500,"linear")
         }
         return(
             <div className="quality-philosophy">
@@ -20,8 +25,8 @@ class Philosophy extends Component{
                         <h1 className="quality-head">Our Quality Philosophy</h1>
                         <table className="quality-names">
                             <tr>
-                                <td rowSpan="2" id="big-circle"><div>Quality <br/>Processes</div></td>
-                                <td  id="small-circle1" onMouseEnter={() => changing_to_new()} onMouseLeave={() => changing_to_old()} ><div id="changing">Quality <br/> Livestock</div></td>
+                                <td rowSpan="2" id="big-circle"><div id="big_changing" >Quality <br/>Processes</div></td>
+                                <td  id="small-circle1" onMouseEnter={() => changing_to_new()} onMouseLeave={() => changing_to_old()} ><div id="small_1_changing">Quality <br/> Livestock</div></td>
                             </tr>
                             <tr>
                             <td id="small-circle2"><div>Quality <br/> Livestock</div></td>
