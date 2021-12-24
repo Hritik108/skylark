@@ -99,30 +99,3 @@
 #button-addon2 {
   color: white;
 }
-
-#footer-main{
-  padding:10% 5%;
-  background-color: white;;
-  height: 0vh;
-}
- #footer-text{
-   color:#70757B;
-   font-size: 1em;
-   line-height: 25px;
-
- }
-
- .footer-Image{
-   max-width: 30%;
-   display: block;
- }
-
- #footer-links{
-   padding-top: 3%
- }
-
- #footer-links li{
-   padding-top: 15px;
-   color: #70757B;
-   font-size: 1.7vh;
- }
