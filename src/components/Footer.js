@@ -7,7 +7,7 @@ import { Facebook } from 'react-bootstrap-icons';
 
 const FooterPage = () => {
   return (
-    <div>
+    <div sty>
     <MDBFooter id="footer-main" className="font-small pt-4 mt-4">
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
