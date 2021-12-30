@@ -40,61 +40,55 @@ class Navbar extends React.Component{
     //            jQuery(".menuA").css({"background-color":"transparent",position:"sticky"})
     //            this.setState({color:"#75B8AD"});
     // }
-    window.onscroll = function() {myFunction()};
+    // window.onscroll = function() {myFunction()};
 
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
+    //     var navbar = document.getElementById("navbar");
+    //     var sticky = navbar.offsetTop;
 
-        function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-        } else {
-            navbar.classList.remove("sticky");
-        }
-        }
+    //     function myFunction() {
+    //     if (window.pageYOffset >= sticky) {
+    //         navbar.classList.add("sticky")
+    //     } else {
+    //         navbar.classList.remove("sticky");
+    //     }
+    //     }
 }
 
     render(){
         
     return(
-        <div id="navbar">
-            <a class="active" href="javascript:void(0)">HOME</a>
-            <a href="javascript:void(0)">PRODUCTS</a>
-            <a href="javascript:void(0)">GALLERY</a>
-            <a href="javascript:void(0)"><img src={Logo}></img></a>
-            </div>
-    // <div id="Scroll" className= {`header-wrap${this.state.isPositionFixed ? ' fixed' : ""}`} style={{backgroundColor:"transparent"}} onScroll = {this.handleScroll} >
-    // <div className="header">
-    //     <div className="menuA">
-    //         <div className="nav-left">
-    //         <NavLink id="navid" to="/" activeClassName="circle" style={{color:this.state.color}}>
-    //             HOME
-    //         </NavLink>
-    //         <NavLink id="navid" to="/products" style={{color:this.state.color}}>
-    //             PRODUCTS
-    //         </NavLink>
-    //         <NavLink id="navid" to="/gallery" style={{color:this.state.color}}>
-    //             GALLERY
-    //         </NavLink>
-    //     </div>
-    //     <div className="headimg">
-    //         <img src={Logo} /></div>
-    //     <div className="nav-right">
-    //         <NavLink id="navid" to="/quality" style={{color:this.state.color}} >
-    //             QUALITY
-    //         </NavLink >
-    //         <NavLink id="navid" to="career"   style={{color:this.state.color}}>
-    //             CAREER
-    //         </NavLink>
 
-    //         <NavLink id="navid" to="/contact" style={{color:this.state.color}}>
-    //             CONTACT
-    //         </NavLink>
-    //     </div>
-    //     </div>
-    // </div>
-    // </div>
-    )
+
+        <nav class="navbar navbar-expand-lg navbar-fixed-top">
+    <a class="navbar-brand d-lg-none" href="#"><img src="https://codingyaar.com/wp-content/uploads/logo.png"  /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
+        aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="myNavbarToggler7">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-left" href="#">Home</a>
+            </li>
+            <li class="nav-item nav-left">
+                <a class="nav-link" href="#">About</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mx-auto">
+            <a class="d-none d-lg-block" href="#"><img src="https://codingyaar.com/wp-content/uploads/logo.png" /></a>
+        </ul>
+        <ul className="navbar-nav">    
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+        )
+
 }
 }
 export default Navbar;
