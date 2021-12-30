@@ -58,9 +58,10 @@ class Navbar extends React.Component{
         
     return(
         <div id="navbar">
-            <a class="active" href="javascript:void(0)">Home</a>
-            <a href="javascript:void(0)">News</a>
-            <a href="javascript:void(0)">Contact</a>
+            <a class="active" href="javascript:void(0)">HOME</a>
+            <a href="javascript:void(0)">PRODUCTS</a>
+            <a href="javascript:void(0)">GALLERY</a>
+            <a href="javascript:void(0)"><img src={Logo}></img></a>
             </div>
     // <div id="Scroll" className= {`header-wrap${this.state.isPositionFixed ? ' fixed' : ""}`} style={{backgroundColor:"transparent"}} onScroll = {this.handleScroll} >
     // <div className="header">
