@@ -124,6 +124,12 @@ class Timeline extends Component{
             //     </div>
 <div class="timeline-container">
 			<div class="timeline-main">
+            <div> 
+               <h1 className="h">Our Journey</h1>
+            </div>
+            <div className="d">
+                   <p>Celeberating 50 Years of glory in the Hatcheries era</p>
+             </div>
 				<ul class="cbp_tmtimeline">
 					<li>
 						<time class="cbp_tmtime"><span>1985</span></time>
