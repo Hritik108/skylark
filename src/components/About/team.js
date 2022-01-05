@@ -32,8 +32,8 @@ class Team extends Component{
                         </div>
                     </div> */}
                     <div className="team-members">
-                        <div class="member">
-                            <div class="card">
+                        <div className="member">
+                            <div className="card">
                             <div className="image"><img src={Ceo3} alt="Ceo3"></img></div>
                             <div className="member-name"><h1 id="name">Jagbir Singh Dhull</h1></div>
                             <div className="member-position"><p id="position">Managing Director, <span className="keyword">Skylark Group</span></p></div>
@@ -41,8 +41,8 @@ class Team extends Component{
                             </div>
                         </div>
 
-                        <div class="member">
-                            <div class="card">
+                        <div className="member">
+                            <div className="card">
                             <div className="image"><img src={Ceo1} alt="Ceo1"></img></div>
                             <div className="member-name"><h1 id="name">Vikas Dhull</h1></div>
                             <div className="member-position"><p id="position">Managing Director, <span className="keyword">Skylark Feeds</span></p></div>
@@ -50,8 +50,8 @@ class Team extends Component{
                             </div>
                         </div>
                         
-                        <div class="member">
-                            <div class="card">
+                        <div className="member">
+                            <div className="card">
                             <div className="image"><img src={Ceo2} alt="Ceo2"></img></div>
                             <div className="member-name"><h1 id="name">Nitesh Dhull</h1></div>
                             <div className="member-position"><p id="position">Director, HR, <span className="keyword">Skylark Group</span></p></div>

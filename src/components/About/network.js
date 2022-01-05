@@ -14,23 +14,24 @@ class Network extends Component{
     render(){
         return(
             <div className="company-network">
-		<h1 class="head">We are spread everywhere</h1>
-		<div class="description">
+		<h1 className="head">We are spread everywhere</h1>
+		<div className="description">
 		<p id="network-descp">An extensive network of farms, processing facilities, trade partners, distributors and contract farmers across India</p>	
 		</div>
 
-		<div class="imag"><img id="india-img" src={india}/></div>
+		<div className="imag"><img id="india-img" src={india}/></div>
 
-<div className="tabl">
+{/* <div className="tabl"> */}
 			
-<table className="network">
+{/* <table className="network">
+  <tbody>
   <tr className="row1">
     <td className="td"><img src={bank}></img></td>
     <td className="td"><img src={gitbranch} /></td>
     <td className="td"><img src={feed} /></td>
     <td className="td"><img src={chicken} /></td>
   </tr>
-  <tr class="row2">
+  <tr className="row2">
     <td className="td"><p className="iconName">4 Corporate offices</p></td>
     <td className="td"><p className="iconName">25 Corporate offices</p></td>
     <td className="td"><p className="iconName">120 Feed Plants</p></td>
@@ -48,29 +49,56 @@ class Network extends Component{
     <td className="td"><p className="iconName">5 Sales & Marketing</p></td>
     <td className="td"><p className="iconName">12 Mineral mixture plant</p></td>
   </tr>
+  </tbody>
 </table>
-		</div>
- 
-		{/* <div className="mapicons">
-			<div className="mapicons1 map"><img src={bank} className="my"/></div>
-			<div className="mapicons2 map"><img src={bank} className="my"/></div>
-			<div className="mapicons3 map"><img src={bank} className="my"/></div>
-			<div className="mapicons4 map"><img src={bank} className="my"/></div>
-			<div className="baricons1 map"><img src={chartbar} className="my"/></div>
-			<div className="baricons2 map"><img src={chartbar} className="my"/></div>
-			<div className="baricons3 map"><img src={chartbar} className="my"/></div>
-			<div className="baricons4 map"><img src={chartbar} className="my"/></div>
-			<div className="baricons5 map"><img src={chartbar} className="my"/></div>
-			<div className="baricons6 map"><img src={chartbar} className="my"/></div>
-			<div className="baricons7 map"><img src={chartbar} className="my"/></div>
-			<div className="officeicons1 map"><img src={gitbranch} className="my"/></div>
-			<div className="officeicons2 map"><img src={gitbranch} className="my"/></div>
-			<div className="officeicons3 map"><img src={gitbranch} className="my"/></div>
-			<div className="officeicons4 map"><img src={gitbranch} className="my"/></div>
-			<div className="officeicons5 map"><img src={gitbranch} className="my"/></div>
-			<div className="officeicons6 map"><img src={gitbranch} className="my"/></div>
-			<div className="officeicons7 map"><img src={gitbranch} className="my"/></div>
 		</div> */}
+    <div class="centered">
+    
+    <section class="cards1">
+          
+        <div class="card">
+          <img className="bank-img" src={bank}></img>
+          <p className="iconName">4 Corporate offices</p>
+        </div>
+
+        <div class="card">
+          <img className="gitbranch-img" src={gitbranch}></img>
+          <p className="iconName">25 Corporate offices</p>
+        </div>
+
+        <div class="card">
+          <img className="feed-img" src={feed}></img>
+          <p className="iconName">120 Feed Plants</p>
+        </div>
+        <div class="card">
+          <img className="chicken-img" src={chicken}></img>
+          <p className="iconName">30 Breeding Centers</p>
+        </div>
+
+    </section>
+    <section class="cards2">
+          
+          <div class="card">
+            <img className="bank-img" src={eggs}></img>
+            <p className="iconName">4 Corporate offices</p>
+          </div>
+  
+          <div class="card">
+            <img className="gitbranch-img" src={chartpie}></img>
+            <p className="iconName">25 Corporate offices</p>
+          </div>
+  
+          <div class="card">
+            <img className="feed-img" src={chartbar}></img>
+            <p className="iconName">120 Feed Plants</p>
+          </div>
+          <div class="card">
+            <img className="chicken-img" src={charging}></img>
+            <p className="iconName">30 Breeding Centers</p>
+          </div>
+  
+      </section>
+</div>
 
 	</div>
         )

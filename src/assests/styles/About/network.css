@@ -284,6 +284,50 @@
   }
   
   .iconName{
+      padding-top: 20px;
       color: #92959A;
   
   }
+
+.centered{
+    margin-left: 2%;
+}
+  .cards1 {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+ }
+ .cards2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+ }
+ .card {
+    flex: 0 1 24%;
+}
+.bank-img{
+    width: 45px;
+    height: 45px;
+    margin: auto;
+}
+.gitbranch-img{
+    width: 45px;
+    height: 45px;
+    margin: auto;
+}
+.feed-img{
+    width: 45px;
+    height: 45px;
+    margin: auto;
+}
+.chicken-img{
+    width: 45px;
+    height: 45px;
+    margin: auto;
+}
+@media screen and (max-width:400px){
+    .iconName{
+        font-size: 9px;
+        padding-top: 3px;
+    }    
+}

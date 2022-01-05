@@ -59,30 +59,30 @@ class Navbar extends React.Component{
     return(
 
 
-        <nav class="navbar navbar-expand-lg navbar-fixed-top">
-    <a class="navbar-brand d-lg-none" href="#"><img src="https://codingyaar.com/wp-content/uploads/logo.png"  /></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
+        <nav className="navbar navbar-expand-lg navbar-fixed-top">
+    <a className="navbar-brand d-lg-none" href="#"><img src="https://codingyaar.com/wp-content/uploads/logo.png"  /></a>
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
         aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="myNavbarToggler7">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link text-left" href="#">Home</a>
+    <div className="collapse navbar-collapse" id="myNavbarToggler7">
+        <ul className="navbar-nav">
+            <li className="nav-item">
+                <a className="nav-link text-left" href="#">Home</a>
             </li>
-            <li class="nav-item nav-left">
-                <a class="nav-link" href="#">About</a>
+            <li className="nav-item nav-left">
+                <a className="nav-link" href="#">About</a>
             </li>
         </ul>
-        <ul class="navbar-nav mx-auto">
-            <a class="d-none d-lg-block" href="#"><img src="https://codingyaar.com/wp-content/uploads/logo.png" /></a>
+        <ul className="navbar-nav mx-auto">
+            <a className="d-none d-lg-block" href="#"><img src="https://codingyaar.com/wp-content/uploads/logo.png" /></a>
         </ul>
         <ul className="navbar-nav">    
-            <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+            <li className="nav-item">
+                <a className="nav-link" href="#">Services</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+            <li className="nav-item">
+                <a className="nav-link" href="#">Contact</a>
             </li>
         </ul>
     </div>

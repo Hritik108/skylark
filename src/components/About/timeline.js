@@ -122,43 +122,43 @@ class Timeline extends Component{
             //         </div>
             //     </div>
             //     </div>
-<div class="timeline-container">
-			<div class="timeline-main">
+<div className="timeline-container">
+			<div className="timeline-main">
             <div> 
                <h1 className="h">Our Journey</h1>
             </div>
             <div className="d">
                    <p>Celeberating 50 Years of glory in the Hatcheries era</p>
              </div>
-				<ul class="cbp_tmtimeline">
+				<ul className="cbp_tmtimeline">
 					<li>
-						<time class="cbp_tmtime"><span>1985</span></time>
+						<time className="cbp_tmtime"><span>1985</span></time>
 						<div className="cbp_tmicon cbp_tmicon-phone"></div>
-						<div class="cbp_tmlabel">
+						<div className="cbp_tmlabel">
 							{/* <h2>Ricebean black-eyed pea</h2> */}
 							<p>Me. Jagbir Singh Dhull and Mr. Jasbir Singh Deswal established Skylark Hatcheries</p>
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>1996</span></time>
+						<time className="cbp_tmtime"><span>1996</span></time>
 						<div className="cbp_tmicon cbp_tmicon-phone"></div>
-						<div class="cbp_tmlabel">
+						<div className="cbp_tmlabel">
 							{/* <h2>Greens radish arugula</h2> */}
 							<p>Skylark research and breeding farm established at village Urlana Kalan, Haryana</p>
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-13 05:36"><span>1997</span></time>
+						<time className="cbp_tmtime"><span>1997</span></time>
 						<div className="cbp_tmicon cbp_tmicon-phone" ></div>
-						<div class="cbp_tmlabel">
+						<div className="cbp_tmlabel">
 							{/* <h2>Sprout garlic kohlrabi</h2> */}
 							<p>Himgiri Hatcheries was set up in a village in Himachal Pradesh</p>
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>2000</span></time>
+						<time className="cbp_tmtime"><span>2000</span></time>
 						<div className="cbp_tmicon cbp_tmicon-phone"></div>
-						<div class="cbp_tmlabel">
+						<div className="cbp_tmlabel">
 							{/* <h2>Watercress ricebean</h2> */}
 							<p>Breeder capacity increased to 2,00,000. Skylark breeding farm renamed</p>
 						</div>

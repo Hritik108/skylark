@@ -29,7 +29,11 @@
     background: #007464;
     transition: 2s;
   }
-  /* #big-circle div:hover{
+  /* #small-circle1 div:hover{
+    width: 450px;
+    height: 450px;
+  }
+  #big-circle div:hover{
     width: 520px;
     height: 520px;
   } */
@@ -50,11 +54,7 @@
     /* opacity: 0.4; */
     transition: 2s;
   }
-  #small-circle1 div:hover{
-    transition: 2s;
-    /* width: 340px;
-    height: 340px; */
-  }
+
   #small-circle2 div{
     width: 320px;
     height: 320px;
@@ -77,17 +77,31 @@
     background: #3BB0A0;
     transition: 2s;
   }
-  #small-circle2 div:hover{
-    width: 340px;
-    height: 340px;
-  }
+
   #small-circle2{
     padding-top: 39px;
   }
-  @media screen and (max-width: 850px){
+  @media screen and (max-width: 890px){
     .quality-philosophy{
       margin-left: 3%;
       margin-right: 3%;
     }
-    
+    #big-circle div{
+      width: 350px;
+      height: 350px;
+      font-size: 28px;
+      line-height: 50px;
+    }
+    #small-circle1 div{
+      width: 190px;
+      height: 190px;
+      font-size: 16px;
+      line-height: 30px;
+    }
+    #small-circle2 div{
+      width: 190px;
+      height: 190px;
+      font-size: 16px;
+      line-height: 30px;
+    }
   }
