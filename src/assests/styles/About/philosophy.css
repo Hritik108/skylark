@@ -29,14 +29,15 @@
     background: #007464;
     transition: 2s;
   }
-  /* #small-circle1 div:hover{
-    width: 450px;
-    height: 450px;
+  #small-circle1 div:hover{
+    cursor: pointer;
+  }
+  #small-circle2 div:hover{
+    cursor: pointer;
   }
   #big-circle div:hover{
-    width: 520px;
-    height: 520px;
-  } */
+    cursor: pointer;
+  }
   #small-circle1 div{
     width: 320px;
     height: 320px;
