@@ -60,7 +60,7 @@ class Navbar extends React.Component{
 
 
         <nav className="navbar navbar-expand-lg navbar-fixed-top">
-    <a className="navbar-brand d-lg-none" href="#"><img src="https://codingyaar.com/wp-content/uploads/logo.png"  /></a>
+    <a className="navbar-brand d-lg-none" href="#"><img className="Nav-logo" src={Logo}  /></a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
         aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -79,7 +79,7 @@ class Navbar extends React.Component{
             </li>
         </ul>
         <ul className="navbar-nav mx-auto">
-            <a className="d-none d-lg-block" href="#"><img src="https://codingyaar.com/wp-content/uploads/logo.png" /></a>
+            <a className="d-none d-lg-block" href="#"><img className="Nav-logo" src={Logo} /></a>
         </ul>
         <ul className="navbar-nav right-side">    
             <li className="nav-item">
