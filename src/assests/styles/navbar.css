@@ -1,37 +1,22 @@
 .navbar .navbar-nav .nav-link {
-  color:#75B8AD;
+  color: #000000;
   font-size: 1.1em;
-  padding-left: 3em;
-  padding-right: 3em;
 
 }
 .navbar .navbar-nav .nav-link:hover{
   color: #808080;
 }
 .navbar-logo-centered .navbar-nav .nav-link{
-  /* padding: .5em 3em; */
-}
-
-.left-side{
-  padding-left: 60px;
-}
-
-.right-side{
-  padding-right: 100px;
-}
-
-#myNavbarToggler7{
-  /* margin-right: 20px; */
+  padding: .5em 1em;
 }
 
 .Nav-logo{
   width: 100px;
-  margin-right:100px;
-  margin-left:100px ;
-  }
+}
 
 .navbar{
-  position: fixed;
-  margin-left: 0px;
-  
+  position: sticky;
+  top: -1px;
+  z-index: 100;
+  background-color: ivory;
 }

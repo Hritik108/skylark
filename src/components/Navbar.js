@@ -59,7 +59,7 @@ class Navbar extends React.Component{
     return(
 
 
-        <nav className="navbar navbar-expand-lg navbar-fixed-top">
+        <nav className="navbar navbar-inverse navbar-fixed-top sticky navbar-expand-lg">
     <a className="navbar-brand d-lg-none" href="#"><img className="Nav-logo" src={Logo}  /></a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
         aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
