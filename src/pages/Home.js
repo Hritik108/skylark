@@ -13,11 +13,11 @@ class HomePage extends Component {
         return(
         <div>
             <NavBar color={"white"} isimage={false} />
-            <div className="home">
+            {/* <div className="home">
             <Home />
             </div>
             <Business />
-            <Parivar />
+            <Parivar /> */}
             <Sustainable />
             <Global />
             <Director />

@@ -28,11 +28,12 @@
 .sustain-right {
   display: flex;
   justify-content: space-between;
+  width: 70%;
 }
 
 .biogas {
-  width: 320px;
-  height: 450px;
+  width: 50%;
+  height: 80%;
   background-image: url("../../images/Sustainable_1.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -42,8 +43,8 @@
   /* box-shadow: 5px 10px grey; */
 }
 .fertilizer {
-  width: 320px;
-  height: 450px;
+  width: 51%;
+  height: 80%;
   background-image: url("../../images/Sustainable_2.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -63,4 +64,69 @@
 .sustain-right-head h3 {
   font-size: 2em;
   font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+
+
+  .sustainable  {
+  
+    display: flex;
+    flex-flow: column;
+    height: 150vh;
+  }
+
+  .sustain-heading{
+    display: flex;
+    flex-flow: column;
+    width: auto;
+  }
+
+  .fertilizer{
+    margin-top: 10vh;
+  }
+  /* .biogas{
+    padding-top: 10vh;
+  } */
+
+  
+.sustain-heading p {
+  width: 100%;
+}
+  
+.sustain-right{
+  display: flex;
+  flex-flow: column;
+  padding-top: 10%;
+  width: 100%;
+}
+
+.sustain-right-head h3{
+  width: 100%;
+}
+
+.sustain-button{
+  width:30%;
+  height: 20%;
+}
+
+}
+
+@media screen and (max-width: 500px){
+
+  .sustain-right{
+    display: flex;
+    flex-flow: column;
+  }
+
+  .biogas{
+    width: 100%;
+  }
+  .fertilizer{
+    margin-top: 10vh;
+    width: 100%;
+  }
+  .sustainable{
+    height: 150vh;
+  }
 }
