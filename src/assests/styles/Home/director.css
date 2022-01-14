@@ -39,3 +39,33 @@
 .director-right img {
   height: 70vh;
 }
+
+@media screen and (max-width: 900px) {
+
+
+  .director-content {
+  
+    display: flex;
+    flex-flow: column;
+  }
+
+  .director-right{
+    order: 1;
+    width: 100%;
+    text-align: center;
+  }
+
+  .director-left{
+    order: 2;
+    width: 100%;
+    text-align: left;
+  }
+
+  .director-left h2 {
+    text-align: center;
+  }
+
+  .director-left h4 {
+    text-align: center;
+  }
+}
