@@ -40,7 +40,7 @@
   height: 70vh;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
 
 
   .director-content {
@@ -53,6 +53,11 @@
     order: 1;
     width: 100%;
     text-align: center;
+  }
+
+  .director-right img{
+    width: 52vw;
+    height: 60vw;
   }
 
   .director-left{

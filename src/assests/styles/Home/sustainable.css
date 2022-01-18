@@ -58,6 +58,7 @@
   margin-top: 15%;
   margin-left: 5%;
   margin-right: 5%;
+  padding-bottom: 60px;
   color: white;
 }
 
@@ -66,14 +67,15 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 915px) {
 
 
   .sustainable  {
   
     display: flex;
     flex-flow: column;
-    height: 150vh;
+    height:fit-content;
+    padding-bottom: 50px;
   }
 
   .sustain-heading{
@@ -84,10 +86,12 @@
 
   .fertilizer{
     margin-top: 10vh;
+    padding-bottom: 40px;
+    width: fit-content;
   }
-  /* .biogas{
-    padding-top: 10vh;
-  } */
+  .biogas{
+   width: fit-content;
+  }
 
   
 .sustain-heading p {
@@ -96,9 +100,16 @@
   
 .sustain-right{
   display: flex;
-  flex-flow: column;
-  padding-top: 10%;
+  flex-flow: row;
+  padding-top:0px;
   width: 100%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;margin-top: 70px;
+
+}
+.fertilizer{
+  margin-top: 0px;
 }
 
 .sustain-right-head h3{
@@ -106,8 +117,10 @@
 }
 
 .sustain-button{
-  width:30%;
+  width:fit-content;
+  padding: 5px 15px 5px 15px;
   height: 20%;
+  font-size: 90%;
 }
 
 }
@@ -127,6 +140,28 @@
     width: 100%;
   }
   .sustainable{
-    height: 150vh;
+    /* height: 150vh; */
+    height: fit-content;
   }
+}
+
+@media screen and (max-width: 300px){
+
+  /* .sustain-right{
+    display: flex;
+    flex-flow: column;
+  }
+
+  .biogas{
+    width: 100%;
+  }
+  .fertilizer{
+    margin-top: 10vh;
+    width: 100%;
+  } */
+  .sustainable{
+    height: fit-content;
+  } 
+
+
 }
