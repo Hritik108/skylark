@@ -13,7 +13,7 @@ class Navbar extends React.Component{
             active :"home" ,
             isPositionFixed: false,
             isImage : true,
-            color:props.color,
+            color:"",
 
         }
         this.handleScroll = this.handleScroll.bind(this);

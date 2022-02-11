@@ -12,7 +12,7 @@ class AboutUs extends Component{
     render(){
         return (
             <div>
-                <NavBar color={"#75B8AD"} isimage={false} />
+                <NavBar isimage={false} />
                 <Head />
                 <Philosophy />
                 <Team />

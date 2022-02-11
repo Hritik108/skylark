@@ -11,9 +11,10 @@ import Global from "../components/Home/global";
 class HomePage extends Component {
     render(){
         return(
+
         <div>
-            <NavBar color={"white"} isimage={false} />
             <div className="home">
+            <NavBar isimage={false} />
             <Home />
             </div>
             <Business />
