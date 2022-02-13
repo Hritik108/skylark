@@ -1,12 +1,9 @@
-/*  css */
-
 #carousel {
     height:650px;
     width:104%;
 }
 
 #img {
-    /* width:0.1vw; */
     height:110vh;
 }
 
@@ -15,12 +12,9 @@
     margin-left: -5vw;
     width:33vw;
     height:65vh;
-    /* background-color:red; */
 }
 
 #title {
-    /* margin-top: -76vh; */
-    /* margin-left: -50vw; */
     text-align: left;
     font-size:3.5vw;
 }
@@ -47,12 +41,10 @@
 }
 
 #span2 {
-    /* padding-left:px; */
     display:inline-block;
 }
  
 #span3 {
-    /* padding-right:57px; */
     display:inline-block;
 } 
 
@@ -80,9 +72,7 @@
 }
 
 #span4{
-    /* background-color: #FFFFFF; */
     opacity: 1;
-    /* color:white; */
     font-weight: bolder;
     color: black;
     padding-right:10px;

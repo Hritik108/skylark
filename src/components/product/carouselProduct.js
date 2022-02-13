@@ -32,7 +32,7 @@ function CarouselPage() {
           // <Carousel.Item key={key} style={{ maxHeight: "400px" } }>
           <Carousel.Item key={key}>
             <img
-              className="d-block w-50"
+              className="d-block w-100"
               id="img"
               src={imgs.src}
               alt={imgs.title}
