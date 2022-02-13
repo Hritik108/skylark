@@ -1,0 +1,168 @@
+/*  css */
+
+#carousel {
+    height:650px;
+    width:104%;
+}
+
+#img {
+    /* width:0.1vw; */
+    height:110vh;
+}
+
+#div {
+    margin-top: -84vh;
+    margin-left: -5vw;
+    width:33vw;
+    height:65vh;
+    /* background-color:red; */
+}
+
+#title {
+    /* margin-top: -76vh; */
+    /* margin-left: -50vw; */
+    text-align: left;
+    font-size:3.5vw;
+}
+
+#subTitle {
+    padding-top:1vw;
+    text-align: left;
+    font-size:1.7vw;
+}
+
+#product {
+    padding-top:1vw;
+    text-align: left;
+    font-size:1.5vw;
+}
+
+#product-title{
+    text-align: left;
+}
+
+#span1{
+    padding-right:57px;
+    display:inline-block;
+}
+
+#span2 {
+    /* padding-left:px; */
+    display:inline-block;
+}
+ 
+#span3 {
+    /* padding-right:57px; */
+    display:inline-block;
+} 
+
+#view-all-products{
+    padding-top:1.6vw;
+    align-items: left;
+    text-align: left;
+    margin-left: -16.5vw;
+    display: inline-block;
+}
+
+#right-arrow {
+    cursor: pointer;
+    font-size: 34px;
+    color:#3BB0A0;
+}
+
+#pro{
+    padding-top:2.25vh;
+    padding-bottom:-0.2vh;
+    opacity:0.1;
+    text-align: left;
+    display: inline-block;
+    background-color: #FFFFFF;
+}
+
+#span4{
+    /* background-color: #FFFFFF; */
+    opacity: 1;
+    /* color:white; */
+    font-weight: bolder;
+    color: black;
+    padding-right:10px;
+    padding-left:10px;
+    display:inline-block;
+}
+
+#span5{
+    padding-right:8px;
+    padding-left:8px;
+    padding-top: -4px;
+    padding-bottom:4.8px;
+    background-color: #FFFFFF;
+    display:inline-block;
+}
+
+
+
+@media (max-width: 1224px) {
+    #view-all-products {
+        margin-left: -11vw;
+    }
+}
+
+@media (max-width: 1068px) {
+    #span1, #span2, #span3 {
+        padding-right:15vw;
+    }
+}
+
+@media (max-width: 972px) {
+    #view-all-products {
+        margin-left: -7vw;
+    }
+}
+
+@media (max-width: 904px) {
+    #subTitle {
+        font-size:2vw;
+    }
+
+    #product {
+        font-size: 1.8vw;
+    }
+
+    #span1, #span2, #span3 {
+        font-size: 2.4vw;
+        padding-right:30px;
+    }
+
+    #span5 {
+        padding-top: -3px;
+    }
+}
+
+@media (max-width: 776px) {
+    #view-all-products {
+        margin-left: -2vw;
+    }
+}
+
+@media (max-width: 672px) {
+    #span5 {
+        padding-top: -4px;
+    }
+}
+
+@media (max-width: 660px) {
+    #view-all-products{
+        padding-top:1vw;
+        margin-left: -2vw;
+    }
+
+    #span4 {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 608px) {
+    #span5 {
+        padding-top: -10px;
+    }
+}

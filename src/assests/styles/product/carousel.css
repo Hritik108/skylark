@@ -1,12 +1,13 @@
-/* Carousel */
-
 .carousel {
   height: 580px;
   width:220%;
   align-items: center;
   
 }
-
+.slick-prev:before,
+.slick-next:before {
+  color: red!important;
+}
 .carousel-inner {
   height: 100%;
 }            
