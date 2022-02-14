@@ -13,8 +13,8 @@ class HomePage extends Component {
         return(
 
         <div>
+            <NavBar />
             <div className="home">
-            <NavBar isimage={false} />
             <Home />
             </div>
             <Business />

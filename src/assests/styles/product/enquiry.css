@@ -30,14 +30,15 @@
     flex: 50%;
 }
 
+#contactForm {
+    margin-right: 100px;
+}
 
 @media (max-width: 800px) {
     .row{
       flex-direction: column;
     }
-  }
-
-
+}
 
 #submit-button {
     font-family: Inter;
@@ -70,6 +71,7 @@
 }
 
 .labels {
+    width:20px;
 	border-radius: 5px;
 	border-color: #9b9a9a;
 }
@@ -77,6 +79,8 @@
 .labels:hover {
 	border-color: #3BB0A0;
 }
+
+
 
 label {
 	font-family: Inter;
@@ -88,10 +92,6 @@ label {
 
 .select {
 	margin-top:-20px;
-}
-
-.select, .comment {
-	width:420px;
 }
 
 .email {
@@ -117,15 +117,29 @@ label {
 
 @media (max-width: 1132px) {
 .select, .comment {
-	width: 380px;
+	width: 150px;
 }
 }
+
+
+@media (max-width: 804px) {
+    .select, .comment {
+        width: 30px;
+    }
+    
+    #commentDiv, #selectDiv {
+        width:60vw;
+    }
+}
+
+@media (max-width: 772px) {
+    #nameDiv, #emailDiv {
+        width:60vw;
+    }
+}
+
 
 @media (max-width: 664px) {
-	.select, .comment {
-		width: 320px;
-	}
-
 	.email {
 		width:250px;
 		height:250px;

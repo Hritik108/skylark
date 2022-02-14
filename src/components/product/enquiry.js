@@ -27,21 +27,21 @@ const EnquiryPage = () => {
                     <div className="section2">
                     <form method="POST" id="contactForm" name="contactForm">
 										<div class="row">
-											<div class="col-md-5">
+											<div id="nameDiv" class="col-md-5">
 												<div>
                                                 <label>Name <span class="required"></span></label></div>
-													<input className="labels" type="text" name="name" placeholder="John"></input>
+													<input className="labels form-control" type="text" name="name" placeholder="John"></input>
 											</div>
-											<div class="col-md-7"> 
+											<div id="emailDiv" class="col-md-7"> 
 												<div>
                                                 <label>Email <span class="required"></span></label></div>
-													<input className="labels" type="email" name="email" placeholder="john@workemail.com"></input>
+													<input className="labels form-control" type="email" name="email" placeholder="john@workemail.com"></input>
 											</div>
 
-											<div class="col-md-12"><br></br>
+											<div id="selectDiv" class="col-md-12"><br></br>
 												<div class="form-group">
                                                 <label>Products interested in</label></div>
-                                                <select id="input" className="labels select" name="field4">
+                                                <select id="input" className="labels select form-control" name="field4">
                                                 <option value="Advertise">Advertise</option>
                                                 <option value="Partnership">Partnership</option>
                                                 <option value="General Question">General</option>
@@ -49,10 +49,10 @@ const EnquiryPage = () => {
                                                 
 											</div>
 
-											<div class="col-md-12"><br></br>
+											<div id="commentDiv" class="col-md-12"><br></br>
 												<div class="form-group">
                                                 <label>Comment<span class="required"></span></label></div>
-                                            <textarea className="labels comment" name="field5" id="field5" placeholder="Type here" ></textarea>
+                                            <textarea className="labels comment form-control" name="field5" id="field5" placeholder="Type here" ></textarea>
 											</div>
 
 											<div class="col-md-12">

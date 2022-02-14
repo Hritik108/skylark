@@ -10,8 +10,8 @@ class productPage extends React.Component {
     render() {
         return (
             <div>
+                <NavBar />
                 <div>
-                    <NavBar />
                     <CarouselPage />
                     {/* <ProductCarousel /> */}
                 </div>

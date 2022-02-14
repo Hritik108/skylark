@@ -12,7 +12,7 @@ class AboutUs extends Component{
     render(){
         return (
             <div>
-                <NavBar isimage={false} />
+                <NavBar/>
                 <Head />
                 <Philosophy />
                 <Team />
