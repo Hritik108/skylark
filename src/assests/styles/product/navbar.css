@@ -1,0 +1,38 @@
+.navbar .navbar-nav .nav-link {
+    color:white;
+    font-size: 1.1em;
+    margin-left: 3vw;
+    margin-right: 2em;
+  }
+  .navbar .navbar-nav .nav-link:hover{
+    color: #808080;
+  }
+  .navbar-logo-centered .navbar-nav .nav-link{
+    padding: .5em 1em;
+  }
+  
+  .navbar{
+    position: fixed;
+    top: -1px;
+    z-index: 100;
+    background-color: transparent;
+  }
+
+#right {
+    margin-left: 20vw;
+}
+
+@media (max-width: 1112px) {
+    #right {
+        margin-left: 7vw;
+    }
+}
+
+@media (max-width: 992px) {
+    #right {
+        margin-left: 3vw;
+    }
+    #nav-items {
+        background-color: #3BB0A0;
+    }
+}

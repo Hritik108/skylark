@@ -5,8 +5,6 @@ import "../../assests/styles/product/carouselProduct.css";
 import Hen from "../../assests/images/product_images/Group 18140547.png";
 class CarouselPage extends React.Component {
   render() {
-    const Height = window.height
-    console.log("Heihgt")
     const imagees = [
       {
         id: "12", title: "All our livestock are fresh and healthy..",
@@ -36,7 +34,7 @@ class CarouselPage extends React.Component {
 
     return (
       <>
-        <Carousel id="carousel" interval={5000} keyboard={false} style={{ "height": "89vh"}}>
+        <Carousel id="carousel" interval={5000} keyboard={false} style={{ "height": "100vh"}}>
           {imagees.map((imgs, key) => (
             // <Carousel.Item key={key} style={{ maxHeight: "400px" } }>
             <Carousel.Item key={key}>
@@ -56,12 +54,10 @@ class CarouselPage extends React.Component {
                     <h5 id="span2">{imgs.span2}</h5>
                     <h5 id="span3">{imgs.span3}</h5>
                   </div>
-                  <div id="view-all-products">
-                    <div id="pro">
-                      <h5 id="span4">View all products</h5>
-                    </div>
 
-                    <h5 id="span5"><span id="right-arrow">&#8594;</span></h5>
+                  <div id="all-products" class="container">
+                      <div style={{"background-color":"white", "opacity":"0.1"}} class="flex-item">View all products</div>
+                      <div style={{"background-color":"white"}} class="fixed"><span id="right-arrow">&#8594;</span></div>
                   </div>
                 </div>
               </Carousel.Caption>

@@ -1,14 +1,14 @@
 #carousel {
-    height:650px;
+    height:800px;
     width:104%;
 }
 
 #img {
-    height:110vh;
+    height:130vh;
 }
 
 #div {
-    margin-top: -84vh;
+    margin-top: -100vh;
     margin-left: -5vw;
     width:33vw;
     height:65vh;
@@ -33,6 +33,7 @@
 
 #product-title{
     text-align: left;
+    margin-bottom: -2vh;
 }
 
 #span1{
@@ -48,64 +49,47 @@
     display:inline-block;
 } 
 
-#view-all-products{
-    padding-top:1.6vw;
-    align-items: left;
-    text-align: left;
-    margin-left: -16.5vw;
-    display: inline-block;
-}
-
 #right-arrow {
     cursor: pointer;
-    font-size: 34px;
+    font-size: 36px;
     color:#3BB0A0;
 }
 
-#pro{
-    padding-top:2.25vh;
-    padding-bottom:-0.2vh;
-    opacity:0.1;
-    text-align: left;
-    display: inline-block;
-    background-color: #FFFFFF;
+#all-products {
+    margin-top: 3vw;
+    margin-left: -1vw;
+}
+.container {
+    display:flex;
 }
 
-#span4{
-    opacity: 1;
-    font-weight: bolder;
+.fixed {
+    width: 40px;
+}
+
+.flex-item {
     color: black;
-    padding-right:10px;
-    padding-left:10px;
-    display:inline-block;
+    flex-grow: 0.3;
+    padding-top: 1.5vh;
+    padding-right: 1vh;
+    font-size: 1.7vw;
 }
 
-#span5{
-    padding-right:8px;
-    padding-left:8px;
-    padding-top: -4px;
-    padding-bottom:4.8px;
-    background-color: #FFFFFF;
-    display:inline-block;
-}
-
-
-
-@media (max-width: 1224px) {
-    #view-all-products {
-        margin-left: -11vw;
-    }
+#all-products {
+    margin-top:2.8vh;
+    font-size:1.4vw;
 }
 
 @media (max-width: 1068px) {
     #span1, #span2, #span3 {
         padding-right:15vw;
     }
-}
 
-@media (max-width: 972px) {
-    #view-all-products {
-        margin-left: -7vw;
+    #all-products {
+        font-size:1.4vw;
+    }
+    .flex-item { 
+        font-size: 2.2vw;
     }
 }
 
@@ -122,37 +106,15 @@
         font-size: 2.4vw;
         padding-right:30px;
     }
-
-    #span5 {
-        padding-top: -3px;
+    .flex-item { 
+        padding-top: 1.8vw;
     }
 }
 
-@media (max-width: 776px) {
-    #view-all-products {
-        margin-left: -2vw;
-    }
+@media (max-width: 808px) {
+    .flex-item { 
+        padding-top: 1.7vw;
+        font-size: 2.6vw;
+    } 
 }
 
-@media (max-width: 672px) {
-    #span5 {
-        padding-top: -4px;
-    }
-}
-
-@media (max-width: 660px) {
-    #view-all-products{
-        padding-top:1vw;
-        margin-left: -2vw;
-    }
-
-    #span4 {
-        font-size: 2.5vw;
-    }
-}
-
-@media (max-width: 608px) {
-    #span5 {
-        padding-top: -10px;
-    }
-}
