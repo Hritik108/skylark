@@ -7,6 +7,7 @@ import Sustainable from "../components/Home/sustainable";
 import Footer from "../components/Footer";
 import Director from "../components/Home/director";
 import Global from "../components/Home/global";
+import Timeline from "../components/About/timeline"
 
 class HomePage extends Component {
     render(){
@@ -22,6 +23,7 @@ class HomePage extends Component {
             <Sustainable />
             <Global />
             <Director />
+            <Timeline />
             <Footer />
         </div>
         );

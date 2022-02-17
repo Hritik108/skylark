@@ -1,6 +1,5 @@
 import Product_cart from "../components/product/product_cart";
 import EnquiryPage from "../components/product/enquiry";
-import CarouselPage from "../components/product/carouselProduct";
 import NavBar from "../components/product/navbar";
 import Newcarousel from "../components/product/newCarousel";
 import NavBar2 from "../components/Navbar"
@@ -14,7 +13,6 @@ class productPage extends React.Component {
                 <NavBar2 />
                 <div>
                     <Newcarousel />
-                    {/* <ProductCarousel /> */}
                 </div>
                 <Product_cart />
                 <EnquiryPage />
