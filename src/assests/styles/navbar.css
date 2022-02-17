@@ -16,8 +16,10 @@
 }
 
 .navbar{
-  position: sticky;
   top: -1px;
+  -webkit-transition: height 1s ease-in-out;
+    -moz-transition: height 1s ease-in-out;
+    -o-transition: height 1s ease-in-out;
+    transition: height 1s ease-in-out;
   z-index: 100;
-  background-color: white;
 }
