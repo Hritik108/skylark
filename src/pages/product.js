@@ -2,8 +2,8 @@ import Product_cart from "../components/product/product_cart";
 import EnquiryPage from "../components/product/enquiry";
 import CarouselPage from "../components/product/carouselProduct";
 import NavBar from "../components/product/navbar";
-// import ProductCarousel from "../components/product/carousel";
-// import NavBar from "../components/Navbar"
+import Newcarousel from "../components/product/newCarousel";
+import NavBar2 from "../components/Navbar"
 import React from "react";
 import FooterPage from "../components/Footer";
 
@@ -11,10 +11,9 @@ class productPage extends React.Component {
     render() {
         return (
             <div>
-                
+                <NavBar2 />
                 <div>
-                <NavBar />
-                    <CarouselPage />
+                    <Newcarousel />
                     {/* <ProductCarousel /> */}
                 </div>
                 <Product_cart />

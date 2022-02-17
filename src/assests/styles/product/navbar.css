@@ -1,5 +1,5 @@
 .navbar .navbar-nav .nav-link {
-    color:white;
+    color:#3bb0a0;
     font-size: 1.1em;
     margin-left: 3vw;
     margin-right: 2em;
@@ -12,10 +12,10 @@
   }
   
   .navbar{
-    position: fixed;
+    position: sticky;
     top: -1px;
     z-index: 100;
-    background-color: transparent;
+    background-color: white;
   }
 
 #right {

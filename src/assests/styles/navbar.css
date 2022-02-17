@@ -16,8 +16,8 @@
 }
 
 .navbar{
-  position: fixed;
+  position: sticky;
   top: -1px;
   z-index: 100;
-  background-color: transparent;
+  background-color: white;
 }

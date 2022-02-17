@@ -1,0 +1,78 @@
+.slick-prev {
+    left: 3% !important;
+    z-index: 1;
+}
+
+.slick-next {
+    right: 3% !important;
+    z-index: 1;
+}
+
+.carousel-content{
+    margin-left: 10%;
+    padding-top:10% ;
+}
+.carousel-head{
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 80px;
+color: white;
+}
+
+.carousel-sub{
+    margin-top: 20px;
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 44px;
+color: white;
+}
+
+.carousel-sub2{
+    margin-top: 30px;
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+color:white
+}
+
+.carousel-sub3{
+    margin-top: 30px;
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+color: white;
+}
+
+.carousel-button{
+    margin-top: 30px;
+}
+
+.carousel-button button{
+    background-color: transparent;
+    text-align: center;
+    padding: 10px 30px;
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+}
+
+#first-item {
+    height: 85vh;
+    background-image: url("../../images/product_images/Group 18140547.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
