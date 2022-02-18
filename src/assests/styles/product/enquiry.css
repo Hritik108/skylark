@@ -1,4 +1,4 @@
-.main-container {
+/* .main-container {
     background-color: #FAFAFA;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -144,4 +144,113 @@ label {
 		width:250px;
 		height:250px;
 	}
-	}
+	} */
+
+    .enquiry{
+        background: #FAFAFA;
+    }
+
+    .enquiry-heading{
+        text-align: center;
+        justify-content: center;
+        margin: 40px auto auto auto;
+        font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 48px;
+    }
+
+    .enquiry-text{
+        color: #70757B;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 60px;
+    }
+
+    #fname{
+width: 18vw;
+border-radius: 10px;
+border: 1px solid #E0E0E0;
+margin-bottom: 20px;
+line-height: 2em;
+    }
+
+    #lname{
+width: 18vw;
+border-radius: 10px;
+border: 1px solid #E0E0E0;
+margin-bottom: 20px;
+line-height: 2em;
+}
+
+
+    #products{
+        width: 40vw;
+        border-radius: 10px;
+        border: 1px solid #E0E0E0;
+        margin-bottom: 20px;
+        line-height: 2em;
+    }
+    #comment{
+        width: 40vw;
+        border-radius: 10px;
+        border: 1px solid #E0E0E0;
+        margin-bottom: 20px;
+        line-height: 2em;
+        
+    }
+    #button{
+        width: 30vw;
+        background: #3BB0A0;
+        border: none;
+        padding: 20px;
+        font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+letter-spacing: 0.2px;
+color: #FFFFFF;
+ }
+    .enquiry-naming{
+        display: flex;
+        justify-content: space-between;
+    }
+    .enquiry-namingtext{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+
+.enquiry-half1 img{
+    width: 30vw;
+    margin-right: 20vw;
+}
+    .enquiry-body{
+        display: flex;
+        flex-flow: row;
+        flex-basis: 100vw;
+        
+    }
+
+    @media screen and (max-width: 992px) {
+        .enquiry{
+            display: flex;
+            flex-flow: column;
+        }
+        .enquiry-body{
+            
+            flex-flow: column;
+            margin-left: 10vw;
+        }
+      }
+   

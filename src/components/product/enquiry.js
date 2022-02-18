@@ -1,75 +1,67 @@
-import React, { Component} from "react";
+import React, { Component } from "react";
 import "../../assests/styles/product/enquiry.css";
 import email from "../../assests/images/product_images/email_1.png";
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>;
-
 const EnquiryPage = () => {
-    return (
-      <div>
-          <div className="main-container">
-              <div className="top-container">
-                  <br></br>
-                <h1>
-                    <h2 className="know-more">Need to know more</h2>
-                    <h6 className="h6">Drop us an enquiry on any of the products you would like to try</h6>
-                </h1>
-                <br></br>
-              </div>
-              <div className="bottom-container">
-                <div className="row">
-                    <div className="section1">
-                        {/* <h1>Email Section</h1> */}
-                        <div>
-                            <img className="email" src={email} alt="email" />
-                        </div>
-                    </div>
-                    <div className="section2">
-                    <form method="POST" id="contactForm" name="contactForm">
-										<div class="row">
-											<div id="nameDiv" class="col-md-5">
-												<div>
-                                                <label>Name <span class="required"></span></label></div>
-													<input className="labels form-control" type="text" name="name" placeholder="John"></input>
-											</div>
-											<div id="emailDiv" class="col-md-7"> 
-												<div>
-                                                <label>Email <span class="required"></span></label></div>
-													<input className="labels form-control" type="email" name="email" placeholder="john@workemail.com"></input>
-											</div>
+  return (
+    <div>
+      <div className="enquiry">
+        <div className="enquiry-heading">
+          <h2>Need to know more</h2>
+        </div>
+        <div>
+          <p className="enquiry-text">
+            Drops us an enquiry on any of the products you would like to try
+          </p>
+        </div>
 
-											<div id="selectDiv" class="col-md-12"><br></br>
-												<div class="form-group">
-                                                <label>Products interested in</label></div>
-                                                <select id="input" className="labels select form-control" name="field4">
-                                                <option value="Advertise">Advertise</option>
-                                                <option value="Partnership">Partnership</option>
-                                                <option value="General Question">General</option>
-                                                </select>
-                                                
-											</div>
-
-											<div id="commentDiv" class="col-md-12"><br></br>
-												<div class="form-group">
-                                                <label>Comment<span class="required"></span></label></div>
-                                            <textarea className="labels comment form-control" name="field5" id="field5" placeholder="Type here" ></textarea>
-											</div>
-
-											<div class="col-md-12">
-												<div class="form-group">
-                                                <input id="submit-button" type="submit" value="Send Enquiry" />
-                                                <span className="right-arrow">&#8594;</span>
-												</div>
-											</div>
-										</div>
-									</form>
-                                    <br></br>
-                    </div>
-                </div>
-              </div>
+        <div className="enquiry-body">
+          <div className="enquiry-half1">
+            <img src={email} alt="email" />
           </div>
+
+          <div className="enquiry-half2">
+            <form>
+              <div className="enquiry-namingtext">
+                <label for="fname">First name:</label>
+                <br />
+
+                <label for="lname" className="enquiry-label-lname">Last name:</label>
+                <br />
+              </div>
+
+              <div className="enquiry-naming">
+                <input type="text" id="fname" name="fname" value="John" />
+                <br />
+                <input type="text" id="lname" name="lname" value="Doe" />
+                <br />
+              </div>
+
+              <label for="fname">Products interested in:</label>
+              <br />
+              <input type="text" id="products" name="fname" value="John" />
+              <br />
+              <label for="lname">comment:</label>
+              <br />
+              <textarea
+                rows="4"
+                id="comment"
+                cols="50"
+                name="comment"
+                form="usrform"
+              >
+                Enter text here...
+              </textarea>
+              <br />
+              <input type="submit" id="button" value="Send Enquiry" />
+              <span>&#8594;</span>
+
+            </form>
+          </div>
+        </div>
       </div>
-    );
-  }
-  
-  export default EnquiryPage;
+    </div>
+  );
+};
+
+export default EnquiryPage;
