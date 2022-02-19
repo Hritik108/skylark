@@ -16,10 +16,93 @@
 }
 
 .navbar{
+  position:fixed;
+  width: 100%;
   top: -1px;
-  -webkit-transition: height 1s ease-in-out;
-    -moz-transition: height 1s ease-in-out;
-    -o-transition: height 1s ease-in-out;
-    transition: height 1s ease-in-out;
+  -webkit-transition: height .5s ease-in-out;
+    -moz-transition: height .5s ease-in-out;
+    -o-transition: height .5s ease-in-out;
+    transition: height .5s ease-in-out;
   z-index: 100;
+}
+
+.menu-B {
+  padding-top: 10px;
+  position: fixed;
+  z-index: 1;
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebarcompany img{
+  width: 100px;
+}
+
+
+.sidebarText {
+  font-size: 1em;
+  display: block;
+  color: #37B0A1;
+  text-align: center;
+  padding-top: 10%;
+  text-decoration: none;
+}
+
+.sidebarText:hover {
+  color:  #37B0A1;
+  text-decoration: none;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: aliceblue;
+}
+
+.sidebar .closebtn:hover {
+  cursor: pointer;
+  color: #0077bf;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  padding: 10px 15px;
+  border-color: transparent;
+  background-color:  #37B0A1;
+}
+
+#main {
+  transition: 0.5s;
+  padding: 16px;
+}
+
+#mySidebar .sidebarcompany {
+  text-align: center;
+  margin: 1% 0% 20% 0%;
+  font-size: 2em;
+}
+
+.closebtn:hover {
+  color: #0077bf;
+}
+
+.sidebarBar {
+  width: 80px;
+  height: 5px;
+  background-color: #0077bf;
+  margin: auto;
 }

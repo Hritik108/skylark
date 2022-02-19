@@ -14,10 +14,11 @@ class HomePage extends Component {
         return(
 
         <div>
-            <NavBar />
             <div className="home">
+            <NavBar />
             <Home />
             </div>
+            <NavBar />
             <Business />
             <Parivar />
             <Sustainable />

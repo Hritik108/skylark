@@ -15,7 +15,7 @@ class productPage extends React.Component {
                     <Newcarousel />
                 </div>
                 <Product_cart />
-                <EnquiryPage />
+                {/* <EnquiryPage /> */}
                 <FooterPage />
             </div>
         );

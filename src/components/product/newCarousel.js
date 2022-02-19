@@ -6,9 +6,19 @@ import "../../assests/styles/product/newcasousel.css"
 import Hen from "../../assests/images/product_images/Group 18140547.png"
 
 class Newcarousel extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            height: "",
+
+        }
+    }
+
+    componentDidMount() {
+        this.setState({height: window.innerHeight});
+    }
     render() {
         const settings = {
-            dots: true,
             infinite: true,
             speed: 500,
             slidesToShow: 1,
@@ -18,7 +28,7 @@ class Newcarousel extends React.Component {
             <div>
                 <Slider {...settings}>
                     <div >
-                        <div className="main-carousel" id="first-item">
+                        <div className="main-carousel" id="first-item" style={{"height":this.state.height - 2}}>
                             <div className="carousel-content">
                                 <div className="carousel-head">
                                     All our livestock are
@@ -47,7 +57,7 @@ class Newcarousel extends React.Component {
 
                     </div>
                     <div>
-                        <div className="main_carousel" id="first-item">
+                        <div className="main_carousel" id="first-item" style={{"height":this.state.height - 2}}>
                             <div className="carousel-content">
                                 <div className="carousel-head">
                                     All our livestock are
@@ -75,7 +85,7 @@ class Newcarousel extends React.Component {
                         </div>
                     </div>
                     <div>
-                        <div className="main_carousel" id="first-item">
+                        <div className="main_carousel" id="first-item" style={{"height":this.state.height - 2}}>
                         <div className="carousel-content">
                                 <div className="carousel-head">
                                     All our livestock are
@@ -103,7 +113,7 @@ class Newcarousel extends React.Component {
                         </div>
                     </div>
                     <div>
-                        <div className="main_carousel" id="first-item">
+                        <div className="main_carousel" id="first-item" style={{"height":this.state.height - 2}}>
                         <div className="carousel-content">
                                 <div className="carousel-head">
                                     All our livestock are
@@ -131,7 +141,7 @@ class Newcarousel extends React.Component {
                         </div>
                     </div>
                     <div>
-                        <div className="main_carousel" id="first-item">
+                        <div className="main_carousel" id="first-item" style={{"height":this.state.height - 2}}>
                         <div className="carousel-content">
                                 <div className="carousel-head">
                                     All our livestock are
@@ -159,7 +169,7 @@ class Newcarousel extends React.Component {
                         </div>
                     </div>
                     <div>
-                        <div className="main_carousel" id="first-item">
+                        <div className="main_carousel" id="first-item" style={{"height":this.state.height - 2}}>
                         <div className="carousel-content">
                                 <div className="carousel-head">
                                     All our livestock are

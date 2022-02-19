@@ -1,10 +1,9 @@
 import React, { Component, useRef, useEffect } from "react";
 import "../../assests/styles/Home/home.css"
 import Egg from "../../assests//images/egg.png"
-function Home(){
-    const myRef = useRef(null);
-    const executeScroll = () => myRef.current.scrollIntoView(); 
-
+class Home extends Component{
+    
+    render(){
     function testing(){
         window.scrollTo(500, 815);
     }
@@ -25,7 +24,7 @@ function Home(){
             </div>
         </div>
     )
-
+    }
 }
 
 export default Home;
