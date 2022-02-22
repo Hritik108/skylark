@@ -28,6 +28,7 @@ class Newcarousel extends React.Component {
             <div>
                 <Slider {...settings}>
                     <div >
+                        
                         <div className="main-carousel" id="first-item" style={{"height":this.state.height - 2}}>
                             <div className="carousel-content">
                                 <div className="carousel-head">
@@ -194,6 +195,7 @@ class Newcarousel extends React.Component {
                                     <button >view all products</button>
                                 </div>
                             </div>
+                        
                         </div>
                     </div>
                 </Slider>

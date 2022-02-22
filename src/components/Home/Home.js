@@ -5,7 +5,8 @@ class Home extends Component{
     
     render(){
     function testing(){
-        window.scrollTo(500, 815);
+        window.scrollTo(0, 815);
+        
     }
     return(
         <div>
